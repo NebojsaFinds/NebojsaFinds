@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 5 Fragrances</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 1rem;
+    }
+
+    .card-content h2 {
+      font-size: 1.25rem;
+      margin: 0 0 0.5rem;
+    }
+
+    .card-content p {
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      color: #555;
+    }
+
+    .card-content a {
+      display: inline-block;
+      text-decoration: none;
+      background: #2a5298;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      transition: background 0.2s;
+    }
+
+    .card-content a:hover {
+      background: #1e3c72;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Top 5 Fragrances</h1>
+    <p>Discover the best picks with images and links</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://example.com/lebeau.jpg" alt="Le Beau Le Parfum">
+      <div class="card-content">
+        <h2>Jean Paul Gaultier Le Beau Le Parfum</h2>
+        <p>A seductive, tropical fragrance with coconut and tonka bean.</p>
+        <a href="https://your-link-here.com">Shop Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://example.com/jpgelixir.jpg" alt="Le Male Elixir">
+      <div class="card-content">
+        <h2>Jean Paul Gaultier Le Male Elixir</h2>
+        <p>Sweet, warm, and powerful—perfect for evening wear.</p>
+        <a href="https://your-link-here.com">Shop Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://example.com/valentinoborn.jpg" alt="Valentino Born in Roma Intense">
+      <div class="card-content">
+        <h2>Valentino Born in Roma Intense</h2>
+        <p>Rich and modern fragrance with vanilla and amber notes.</p>
+        <a href="https://your-link-here.com">Shop Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://example.com/yslmyslf.jpg" alt="YSL MYSLF">
+      <div class="card-content">
+        <h2>YSL MYSLF</h2>
+        <p>A fresh and bold scent with clean, masculine vibes.</p>
+        <a href="https://your-link-here.com">Shop Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://example.com/spicebomb.jpg" alt="Spicebomb Extreme">
+      <div class="card-content">
+        <h2>Spicebomb Extreme</h2>
+        <p>Explosive spices mixed with vanilla—perfect for colder days.</p>
+        <a href="https://your-link-here.com">Shop Now</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
